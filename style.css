@@ -290,9 +290,11 @@ nav a.active {
 .portfolio-chart {
   display: block;
   margin: 40px auto;
-  max-width: 600px;  /* previously 400px — now bigger */
-  width: 100%;
+  max-width: 450px;        /* perfect desktop size */
+  width: 80%;              /* scales down on smaller screens */
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
+  background-color: white; /* optional contrast if your bg is blue */
+  padding: 10px;           /* gives it breathing room */
 }
